@@ -36,6 +36,13 @@ padding: 1em 2em;
   left: 0;
   right: 0;
 }
+.nav_tools_sub .nav_tools_sub{
+display: none;
+width: 100%;
+position: absolute;
+left:100%;
+top:0;
+}
 .offer:hover .nav_tools_sub{
   display: block;
 }
