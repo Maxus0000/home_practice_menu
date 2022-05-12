@@ -11,6 +11,7 @@ padding-top: 30px;
 } 
 .offer{
 display: inline-block;
+position: relative;
 background:linear-gradient(#3E5151,#DECBA4);
 /* background-color:var(--main-color); */
 color:var(--text-color);
@@ -27,6 +28,17 @@ font-size: initial;
 .categories_link{
 display: inline-block;
 padding: 1em 2em;
- 
-  
+}
+
+.nav_tools_sub{
+  display: none;
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+.offer:hover .nav_tools_sub{
+  display: block;
+}
+.kinds_offer{
+  display: block;
 }
